@@ -4,17 +4,17 @@ MarketLane is a lightweight local e-commerce application designed for small town
 
 | Topic  | Description |
 | ------------- | ------------- |
-| Requirement Statements | [Markdown](https://github.com/hvo11152021/MarketLane/blob/main/documents/RequirementStatements.md)  |
-| Use Cases | [PDF](https://github.com/hvo11152021/MarketLane/blob/main/documents/UseCases.pdf)  |
-| User Story Map | [Markdown](https://github.com/hvo11152021/MarketLane/blob/main/documents/UserStories.md) |
-| Class Diagram | [PNG](https://github.com/hvo11152021/MarketLane/blob/main/documents/ClassDiagram.png) |
-| Sequence Diagram | [PNG](https://github.com/hvo11152021/MarketLane/blob/main/documents/SequenceDiagram.png) |
+| Requirement Statements | [Markdown](https://github.com/hvo11152021/MarketLane/blob/main/design-diagrams/RequirementStatements.md)  |
+| Use Cases | [PDF](https://github.com/hvo11152021/MarketLane/blob/main/design-diagrams/early-designs/UseCase.pdf)  |
+| User Story Map | [Markdown](https://github.com/hvo11152021/MarketLane/blob/main/design-diagrams/UserStories.md) |
+| Class Diagram | [PNG](https://github.com/hvo11152021/MarketLane/blob/main/design-diagrams/early-designs/ClassDiagram.png) |
+| Sequence Diagram | [PNG](https://github.com/hvo11152021/MarketLane/blob/main/design-diagrams/early-designs/SequenceDiagram.png) |
 
 | Architecture | Description |
 | ------------- | ------------- |
-| System Context | [PDF](https://github.com/hvo11152021/MarketLane/blob/main/documents/SystemContext.pdf) |
-| Container Diagram | [PDF](https://github.com/hvo11152021/MarketLane/blob/main/documents/ContainerDiagram.pdf) |
-| Component Diagram | [PDF](https://github.com/hvo11152021/MarketLane/blob/main/documents/ComponentDiagram.pdf) |
+| System Context | [PDF](https://github.com/hvo11152021/MarketLane/blob/main/design-diagrams/early-designs/SystemContext.pdf) |
+| Container Diagram | [PDF](https://github.com/hvo11152021/MarketLane/blob/main/design-diagrams/early-designs/ContainerDiagram.pdf) |
+| Component Diagram | [PDF](https://github.com/hvo11152021/MarketLane/blob/main/design-diagrams/early-designs/ComponentDiagram.pdf) |
 
 
 ## Description

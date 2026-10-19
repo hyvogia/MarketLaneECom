@@ -3,10 +3,10 @@ services:
     image: mysql:8.0
     container_name: marketlane_db
     ports:
-      - "3306:3306"
+      - "3307:3306"
     environment:
       MYSQL_ROOT_PASSWORD: rootpass
-      MYSQL_DATABASE: marketlanedb
+      MYSQL_DATABASE: marketlane_db
       MYSQL_USER: arketlane-user
       MYSQL_PASSWORD: arketlane-pass
     volumes:

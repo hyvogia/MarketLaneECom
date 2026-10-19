@@ -27,6 +27,42 @@ The app provides essential marketplace features without complex integrations.
 
 **Hy Vo:** Project Owner
 
+## Installation Instructions
+
+Prerequisites: Java 21, Node.js 22.12 or later with npm, and Docker with Docker Compose.
+
+1. From the project root, start the MySQL database:
+
+   ```bash
+   docker compose up -d mysql
+   ```
+
+2. Once MySQL is ready, start the backend (macOS/Linux):
+
+   ```bash
+   cd backend
+   SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3307/marketlane_db \
+   SPRING_DATASOURCE_USERNAME=arketlane-user \
+   SPRING_DATASOURCE_PASSWORD=arketlane-pass \
+   sh ./mvnw spring-boot:run
+   ```
+
+   These settings match the local Docker database. The backend runs at `http://localhost:8090`.
+
+3. In a new terminal, from the project root, install and start the frontend:
+
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+
+4. Open the URL printed by Vite, usually `http://localhost:5173`.
+
+## Usage
+
+https://youtu.be/p7IM0t6uTSQ
+
 ## Core Features (MVP)
 
 - Business directory 
@@ -42,3 +78,9 @@ The app provides essential marketplace features without complex integrations.
 - **Database:** mySQL
 - **Deploy:** AWS
 - **Auth:** Basic JWT (for admin upload)
+
+## Contribution
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
